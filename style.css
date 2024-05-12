@@ -1,6 +1,44 @@
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1, h3, p{
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 30px;
+}
+
 button {
-    border-radius: 5px;
-    background-color: tomato;
-    color: red;
-    border: 0px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    border-style: solid;
+    border: 3;
+    border-color: hsl(216, 50%, 50%);
+    color: hsl(216, 100%, 69%);
+    background-color: hsl(216, 100%, 50%);
+    font-size: 32px;
+    cursor: pointer;
+    width: 150px;
+    height: 80px;
+}
+
+button:hover {
+    background-color: hsl(216, 72%, 44%);
+}
+
+button:active {
+    background-color: hsl(216, 98%, 64%); 
 }
